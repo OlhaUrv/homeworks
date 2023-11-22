@@ -1,0 +1,49 @@
+@import url('reset.css');
+
+.container {
+width: 600px; 
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+line-height: 20px;
+}
+.header {
+background: lightgoldenrodyellow;
+margin: auto;
+}
+.title {
+text-align: center; 
+border-width: 440px;
+font-size: 36px;
+font-weight: 600;
+color: black;
+border: lightblue 2px solid; 
+border-radius: 16px;
+padding: 10px;
+margin-bottom: 24px;
+}
+.description {
+width: 440px;
+text-align: center;
+margin: 36px auto;
+padding-bottom: 24px;
+}
+div, div.option_list {
+margin: 0 0 24px;
+background: lightblue;
+}
+.option_title {
+text-align: center;
+font-weight: 600;
+padding: 24px;
+}
+.option_desc {
+text-align: center; 
+margin: auto; 
+width: 440px;
+}
+div div > p {
+border: outset;
+background: lightgoldenrodyellow;
+padding: 12px;
+}
